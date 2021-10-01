@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utp-8" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="css/Index.css" />
+  <script src="js/Calculadora.js" type="text/javascript"></script>
+  <script src="js/Index.js" type="text/javascript" defer></script>
+  <script src="js/Pantalla.js" type="text/javascript"></script>
+</head>
+<body>
+  <center><h1>Calculadora - Brian Pelegrin</h1></center>
+  <div class="contenedor">
+    <div class="calculadora">
+      <div class="pantalla">
+        <div id="valor-anterior"></div>
+        <div id="valor-actual"></div>
+      </div>
+      <button class="col-2" onclick="pantalla.borrarTodo()">C</button>
+      <button onclick="pantalla.borrar()">←</button>
+      <button class="operador" value="Dividir">/</button>
+      <button class="Numero">7</button>
+      <button class="Numero">8</button>
+      <button class="Numero">9</button>
+      <button class="operador" value="Multiplicar">X</button>
+      <button class="Numero">4</button>
+      <button class="Numero">5</button>
+      <button class="Numero">6</button>
+      <button class="operador" value="Restar">-</button>
+      <button class="Numero">1</button>
+      <button class="Numero">2</button>
+      <button class="Numero">3</button>
+      <button class="operador" value="Sumar">+</button>
+      <button class="col-2-Numero">0</button>
+      <button class="Numero">.</button>
+      <button class="operador" value="Igual">=</button>
+    </div>
+  </div>
+</body>
